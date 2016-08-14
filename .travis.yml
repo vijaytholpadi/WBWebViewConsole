@@ -3,6 +3,7 @@ before_install:
   - brew update
   - brew reinstall xctool
   - gem update cocoapods
+  - pod install
 xcode_workspace: WBWebViewConsole.xcworkspace
 xcode_scheme: WBWebViewConsole
 xcode_sdk:
